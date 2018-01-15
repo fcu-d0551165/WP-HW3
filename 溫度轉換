@@ -1,0 +1,50 @@
+<html>
+
+<head>
+
+<title>�ū��ഫ</title>
+</head>
+
+<p align="center"><font  face="�з���" size="6">
+
+
+<head>
+	<meta http-equiv='Content-Type' content='text/html; charset=BIG5'>
+	<title>���εؤ��ഫ</title>
+</head>
+<body>
+
+<script language='javascript'>
+function swapTemp(form, kind) {
+	var c = form.TempC.value;
+	var f = form.TempF.value;
+	if (kind == 'c2f') {
+		f = c*(9/5)+32;
+	} else if (kind = 'f2c') {
+		c = (f-32)*5/9;
+	}
+	form.TempC.value = Math.round(c*100)/100;
+	form.TempF.value = Math.round(f*100)/100;
+}
+</script>
+
+
+���εؤ�ūת��ഫ
+
+</font></p>
+<p align="center">
+<html lang="zh-TW">
+<body>
+
+</p>
+<form name='fm'>
+	<p align="center">
+	<font size="5" face="�з���">���(C) <input type='text' size='10' maxlength='4' name='TempC' onChange='swapTemp(this.form, "c2f")'>
+	��
+	�ؤ�(F) <input type='text' size='10' maxlength='4' name='TempF' onChange='swapTemp(this.form, "f2c")'>
+	</font></p>
+</form>
+
+<hr>�@<p align="center"><font face="�з���" size="5">�]��J�Ʀr��Enter�^</font></p>
+
+</font></p>
